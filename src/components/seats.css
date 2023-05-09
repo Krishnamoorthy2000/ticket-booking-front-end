@@ -1,0 +1,75 @@
+.seat{
+  height: 100%;
+}
+.seats{
+  display:flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 20px auto;
+  padding:20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+  height:500px auto;
+  border: 1px solid black;
+}
+.screen{
+  width:600px;
+  height: 20px;
+  margin: 0 auto;
+  border: 1px solid rgb(20, 160, 160);
+  box-shadow: 0px 8px 13px 4px rgb(4, 137, 170);
+  text-align: center;
+
+
+}
+.icon{
+  font-size: 40px;
+}
+.legend{
+  display:inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.available{
+  color: rgba(27, 27, 29, 0.623);
+ }
+
+.selected{
+  color: rgb(3, 114, 36);
+}
+.sold{
+  color:darkred;
+}
+.available-icon{
+  padding: 8px;
+  background-color:  rgba(27, 27, 29, 0.623);;
+  margin: 10px;
+}
+.selected-icon{
+  padding: 8px;
+  background-color:rgb(3, 114, 36) ;
+  margin: 10px;
+
+}
+.sold-icon{
+  padding: 8px;
+  background-color:darkred ;
+  margin: 10px;
+
+}
+.seat-booking{
+  background-color: chartreuse;
+  width: 150px;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+.booking-info{
+  display: flex;
+  justify-content: center;
+}
+
+.seat-booking{
+  margin: 50px;
+
+}

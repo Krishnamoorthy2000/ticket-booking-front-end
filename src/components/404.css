@@ -1,0 +1,23 @@
+.error-container.not-found {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error-container.not-found h1 {
+  font-size: 150px;
+  color: #4a4a4a;
+  margin: 0px;
+  line-height: 150px;
+}
+
+.error-container.not-found h2 {
+  font-size: 32px;
+  color: #4a4a4a;
+  margin-top: 20px;
+}
+
+.error-container.not-found p {
+  font-size: 16px;
+  color: #4a4a4a;
+  margin-top: 20px;
+}
